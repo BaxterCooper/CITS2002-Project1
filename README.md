@@ -3,7 +3,7 @@ A command line utility program written in C that emulates the execution of a sma
 
 # Compilation
 ```bash
-make clean && make
+cc -std=c11 -Wall -Werror -o runcool runcool.c
 ```
 
 ## Usage
